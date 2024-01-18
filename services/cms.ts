@@ -168,24 +168,24 @@ function convertPost(rawData: any, taglist: ITagList): IPost {
 
 function convertImage(rawImage: any): IFigureImage {
   return {
-    imageUrl: rawImage.file.url.replace('//', 'https://'), // may need to put null check as well here
-    description: rawImage.description ?? null,
-    title: rawImage.title ?? null,
-    width: rawImage.file.details.image.width,
-    height: rawImage.file.details.image.height,
+    imageUrl: rawImage?.file?.url?.replace('//', 'https://'), // may need to put null check as well here
+    description: rawImage?.description ?? null,
+    title: rawImage?.title ?? null,
+    width: rawImage?.file?.details?.image?.width,
+    height: rawImage?.file?.details?.image?.height,
   };
 }
 
 function convertAuthor(rawAuthor: any): IAuthor {
   return {
     name: rawAuthor?.name ?? null,
-    avatar: convertImage(rawAuthor.avatar.fields),
+    avatar: convertImage(rawAuthor?.avatar?.fields),
     shortBio: rawAuthor?.shortBio ?? null,
     position: rawAuthor?.position ?? null,
     email: rawAuthor?.email ?? null,
     twitter: rawAuthor?.twitter ?? null,
-    facebook: rawAuthor.facebook ?? null,
-    github: rawAuthor.github ?? null,
+    facebook: rawAuthor?.facebook ?? null,
+    github: rawAuthor?.github ?? null,
   };
 }
 

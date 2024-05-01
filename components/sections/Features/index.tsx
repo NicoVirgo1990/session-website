@@ -52,10 +52,10 @@ export default function Features(): ReactElement {
               className={classNames('-mt-4 -ml-1 mb-12', 'md:mb-16 md:px-20')}
             >
               <Image
-                src="/assets/images/ui-direct-message.png"
+                src="/assets/images/blockchainTop.png"
                 alt="mobile app direct message screenshot"
-                width="1148px"
-                height="2000px"
+                width="1001px"
+                height="1001px"
                 layout="responsive"
                 priority={true}
                 loading="eager"
@@ -70,23 +70,19 @@ export default function Features(): ReactElement {
               '2xl:mt-0'
             )}
           >
-            <h3 className={headingClasses}>Group chats</h3>
+            <h3 className={headingClasses}>P2P communication</h3>
             <p className={paragraphClasses}>
-              Talk to your friends or talk to the world. You decide. 
-              Groups let you talk to up to 100 friends at once, with the same
-              encrypted protections as one-on-one chats. Got a bigger crowd? Use
-              a community to connect with as many people as you want.
+            Utilizing P2P communication with cascading symmetric encryption (AES-256 and Salsa20) provides substantial security and privacy benefits. This layered approach ensures strong protection against interceptions, boosts network resilience, enhances scalability, and improves resistance to censorship. Additionally, the decentralization of P2P systems reduces surveillance risks, enhancing overall user security and privacy.
+      
             </p>
-            <h3 className={headingClasses}>Voice messages</h3>
-            <p className={paragraphClasses}>
-              Sometimes, a text just isn’t enough. Voice messages let you send
-              something a little more personal, so nothing gets lost in
-              translation.
+            <h3 className={headingClasses}>Hardened OS</h3>
+            <p className={paragraphClasses}> With a unique read-only format and blockchain-based update verification, Kame ensures that only authorized applications are installed and that updates are tamper-proof and genuine. Our proprietary Shield application conducts regular system checks to swiftly detect and respond to potential intrusions, providing unparalleled protection for your devices and data. Experience peace of mind with Kame's advanced security features.
+
             </p>
-            <h3 className={headingClasses}>Attachments</h3>
+            <h3 className={headingClasses}>Kame Network</h3>
             <p className={paragraphClasses}>
-              Don’t leak those docs. Send all your files, images, and
-              attachments through a network that takes your privacy seriously.
+
+A controlled network every device provides security. Anti-tracking tools protect online privacy by preventing monitoring and enhancing data security.
             </p>
           </div>
           {(isLarge || isHuge || isEnormous) && (
@@ -98,10 +94,10 @@ export default function Features(): ReactElement {
               )}
             >
               <Image
-                src="/assets/images/mockup-desktop.png"
+                src="/assets/images/blockchainTop.png"
                 alt="desktop app screenshot"
-                width="2477px"
-                height="3000px"
+                width="1001px"
+                height="1001px"
                 layout="responsive"
                 loading="eager"
               />

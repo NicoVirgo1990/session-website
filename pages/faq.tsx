@@ -63,7 +63,7 @@ export default function FAQ(props: Props): ReactElement {
             large: '67rem',
           }}
         >
-          <h1>Frequently Asked Questions</h1>
+          <h1>Features</h1>
         </Headline>
         <Container classes={classNames('pt-0 px-4 pb-8', 'lg:pb-12')}>
           {renderFAQList}

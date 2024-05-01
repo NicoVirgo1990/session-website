@@ -11,7 +11,7 @@ interface INavList {
 }
 
 const NAV_ITEMS: INavList = {
-  Technicals: {
+  About: {
     href: '/technicals',
     alt: 'Heading of Session Technical Links',
     target: '_self',
@@ -20,12 +20,7 @@ const NAV_ITEMS: INavList = {
     href: '/faq',
     alt: `Link to Session's FAQs`,
     target: '_self',
-  },
-  Downloads: {
-    href: '/blog',
-    alt: `Link to Session's blogposts`,
-    target: '_self',
-  },
+  }
 };
 
 const NAVIGATION = {

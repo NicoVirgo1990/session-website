@@ -14,7 +14,7 @@ import { useScreen } from '@/contexts/screen';
 export default function Footer(): ReactElement {
   const { isSmall } = useScreen();
   const redactedClasses = redact({
-    redactColor: 'primary',
+    redactColor: 'white',
     textColor: 'white',
     animate: true,
     classes: 'py-0.5 py-1',
@@ -62,82 +62,23 @@ export default function Footer(): ReactElement {
           >
             <div
               className={classNames(
-                'flex flex-col w-1/2 mb-4',
+                'flex flex-col w-1/2 mb-4 text-white',
                 'md:w-1/4',
                 'lg:w-1/3'
               )}
             >
               <h3 className={headingClasses}>About</h3>
-              <Link href="/whitepaper">
-                <a
-                  className={linkClasses}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Whitepaper
-                </a>
-              </Link>
               <Link href="/privacy-policy">
                 <a className={linkClasses}>Privacy Policy</a>
               </Link>
               <Link href="/terms-of-service">
                 <a className={linkClasses}>Terms of Service</a>
               </Link>
-              <Link href="/blog">
-                <a className={linkClasses}>Blog</a>
-              </Link>
               <Link href="/faq">
-                <a className={linkClasses}>FAQ</a>
+                <a className={linkClasses}>Features</a>
               </Link>
             </div>
-            <div
-              className={classNames(
-                'flex flex-col w-1/2 mb-4',
-                'md:w-1/4',
-                'lg:w-1/3'
-              )}
-            >
-              <h3 className={headingClasses}>Company</h3>
-              <Link href="https://optf.ngo/">
-                <a
-                  className={linkClasses}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  OPTF
-                </a>
-              </Link>
-              <Link href="https://oxen.io/">
-                <a
-                  className={linkClasses}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Oxen
-                </a>
-              </Link>
-              <Link href="https://lokinet.org/">
-                <a
-                  className={linkClasses}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Lokinet
-                </a>
-              </Link>
-              <Link href="/assets/downloads/Session-Brandmarks.zip">
-                <a className={linkClasses}>Media Kit</a>
-              </Link>
-              <Link href="https://optf.ngo/transparency/">
-                <a
-                  className={linkClasses}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Transparency Report
-                </a>
-              </Link>
-            </div>
+     
             <div
               className={classNames(
                 'flex w-full',
@@ -147,17 +88,9 @@ export default function Footer(): ReactElement {
             >
               <div className={classNames('w-1/2 mb-4', 'lg:w-full')}>
                 <h3 className={headingClasses}>Links</h3>
-                <div className={classNames('flex flex-wrap -ml-1')}>
-                  <Link href="https://twitter.com/session_app">
-                    <a
-                      className={socialLinkClasses}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <TwitterSVG className={svgClasses} />
-                    </a>
-                  </Link>
-                  <Link href="https://www.instagram.com/getsession">
+                <div className={classNames('flex flex-wrap -ml-1 text-white')}>
+             
+                  <Link href="https://www.instagram.com/kame_system">
                     <a
                       className={socialLinkClasses}
                       target="_blank"
@@ -166,43 +99,15 @@ export default function Footer(): ReactElement {
                       <InstagramSVG className={svgClasses} />
                     </a>
                   </Link>
-                  <Link href="https://www.youtube.com/@sessionmessenger">
-                    <a
-                      className={socialLinkClasses}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <YouTubeSVG className={svgClasses} />
-                    </a>
-                  </Link>
-                  <Link href="https://github.com/oxen-io">
-                    <a
-                      className={socialLinkClasses}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GithubSVG className={svgClasses} />
-                    </a>
-                  </Link>
-                  <Link href="/feed">
-                    <a className={socialLinkClasses} target="_self">
-                      <RssSVG className={svgClasses} />
-                    </a>
-                  </Link>
+             
+              
                 </div>
               </div>
               <div
                 className={classNames('flex flex-col w-1/2 mb-4', 'lg:w-full')}
               >
-                <h3 className={headingClasses}>Support</h3>
-                <a
-                  href="https://sessionapp.zendesk.com/hc/en-us"
-                  className={classNames(linkClasses)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit our Help Centre
-                </a>
+              
+            
               </div>
             </div>
           </div>
@@ -224,17 +129,13 @@ export default function Footer(): ReactElement {
                 'group text-white text-sm leading-6 tracking-wide'
               )}
             >
-              Session is an <span className={redactedClasses}>end-to-end</span>{' '}
-              encrypted messenger that removes{' '}
-              <span className={redactedClasses}>sensitive</span> metadata
-              collection,
-              <br
-                className={classNames('hidden', 'md:inline', 'lg:hidden')}
-              />{' '}
-              <span className={redactedClasses}>and is designed</span> for
-              people who want privacy and freedom from{' '}
-              <span className={redactedClasses}>any forms of</span>{' '}
-              surveillance.
+                Kame is an <span className={redactedClasses}>integrated</span>{' '}
+                Android system equipped with a secure message application{' '}
+                <span className={redactedClasses}>engineered</span> with multi layer encryption,{' '}
+                <span className={redactedClasses}>designed and built</span> for people
+                who want <span className={redactedClasses}>absolute</span> privacy and
+                freedom from <span className={redactedClasses}>governments</span>{' '}
+                surveillance.
             </p>
           </div>
         </footer>

@@ -86,13 +86,7 @@ export default function Nav(): ReactElement {
               />
             );
           })}
-          <Link href="/download">
-            <a className="hidden lg:inline">
-              <Button fontWeight="bold" classes="ml-6">
-                Download
-              </Button>
-            </a>
-          </Link>
+   
         </div>
       </div>
     </nav>

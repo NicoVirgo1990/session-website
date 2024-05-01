@@ -55,41 +55,16 @@ export default function EmailSignup(): ReactElement {
       >
         <h3
           className={classNames(
-            'text-xl font-bold leading-none mb-2',
+            'text-xl font-bold leading-none mb-2 text-white',
             'lg:text-3xl lg:mb-0'
           )}
         >
-          Friends don’t let friends use compromised messengers.
+         KAME:  next generation cybersecurity smartphone
         </h3>
-        <p className={classNames('leading-none mb-4', 'md:mb-8', 'lg:text-xl')}>
-          Sign up to the mailing list and start taking action!
+        <p className={classNames('leading-none mb-4 text-green-400', 'md:mb-8', 'lg:text-xl')}>
+          STAY SAFE, STAY KAME!
         </p>
-        <form onSubmit={handleSubscription}>
-          <input
-            type="email"
-            placeholder="Your Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className={classNames(
-              'block w-5/6 mb-4 text-sm border border-black rounded-sm bg-primary',
-              'md:w-1/2',
-              'lg:w-2/5',
-              'placeholder-black placeholder-opacity-60'
-            )}
-            required
-          />
-          <Button
-            bgColor="black"
-            textColor="primary"
-            fontWeight="semibold"
-            size="small"
-            hoverEffect={false}
-            type={'submit'}
-            reference={buttonRef}
-          >
-            Sign up
-          </Button>
-        </form>
+       
       </Container>
     </section>
   );

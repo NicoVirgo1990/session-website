@@ -84,7 +84,7 @@ export default function Download(): ReactElement {
                 )}
               >
                 <Image
-                  src="/assets/images/ui-create-account.png"
+                  src="/assets/images/smartHero.webp"
                   alt="mobile app create account screenshot"
                   width="1148px"
                   height="2000px"

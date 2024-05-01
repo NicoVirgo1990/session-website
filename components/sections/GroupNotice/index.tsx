@@ -17,19 +17,19 @@ export default function GroupNotice(props: Props): ReactElement {
       )}
     >
       <h4 className={classNames('text-xl font-bold leading-none mb-2')}>
-        Join the movement to keep the internet private!
+        Contact Kame Team to more information:
       </h4>
       <p className={classNames('leading-none')}>
-        Chat with like-minded individuals in the{' '}
-        <Link href="/community">
+        {' '}
+        <Link href="/">
           <a
             className={classNames(
-              'text-primary-dark',
+              'text-white',
               'transition-colors duration-300',
               'hover:text-white'
             )}
           >
-            Session Community.
+            kamephone@tuta.com
           </a>
         </Link>
       </p>

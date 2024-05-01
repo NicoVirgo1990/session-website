@@ -57,7 +57,7 @@ module.exports = {
         },
       },
       outline: {
-        primary: '2px dotted var(--primary-DEFAULT)',
+        primary: '2px dotted var(--DEFAULT)',
       },
       transitionProperty: {
         height: 'height',

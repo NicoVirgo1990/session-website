@@ -36,75 +36,21 @@ export default function Hero(): ReactElement {
         >
           <div className={classNames('lg:-mt-16 lg:mr-8', 'xl:-mr-1')}>
             <h1 className={classNames(headingClasses)}>
-              <span className="block">Send</span>
+              <span className="block">Stay</span>
               <span className={'block glitch'} data-glitch-text={'Encrypted'}>
-                Messages,
+                Safe,
               </span>
-              <span className="block">Not Metadata.</span>
+              <span className="block">with Kame</span>
             </h1>
-            <div
-              className={classNames(
-                'flex flex-col mt-7 mb-4',
-                'md:mb-12',
-                'lg:hidden'
-              )}
-            >
-              <Link href="/android">
-                <a className={downloadLinkClasses}>
-                  <AndroidSVG
-                    className={classNames(downloadSVGClasses, 'w-8 h-8')}
-                  />
-                  <span>Android</span>
-                </a>
-              </Link>
-              <Link href="/apk">
-                <a className={downloadLinkClasses}>
-                  <AndroidSVG
-                    className={classNames(downloadSVGClasses, 'w-8 h-8')}
-                  />
-                  <span>APK</span>
-                </a>
-              </Link>
-              <Link href="/f-droid">
-                <a className={downloadLinkClasses}>
-                  <FDroidSVG
-                    className={classNames(downloadSVGClasses, 'w-8 h-8')}
-                  />
-                  <span>F-Droid</span>
-                </a>
-              </Link>
-              <Link href="/iphone">
-                <a className={downloadLinkClasses}>
-                  <AppleSVG
-                    className={classNames(downloadSVGClasses, 'w-6 h-6')}
-                  />
-                  <span>iPhone</span>
-                </a>
-              </Link>
-              <Link href="/download">
-                <a className={downloadLinkClasses}>
-                  <DesktopSVG
-                    className={classNames(downloadSVGClasses, 'w-7 h-7')}
-                  />
-                  <span>Desktop</span>
-                </a>
-              </Link>
-            </div>
-            <Link href="/download">
-              <a className="hidden lg:block">
-                <Button fontWeight="bold" size="large" classes="mt-4 px-12">
-                  Download
-                </Button>
-              </a>
-            </Link>
-          </div>
+     
+          </div> 
           {(isSmall || isMedium) && (
             <div className={classNames('-mt-4 -ml-1')}>
               <Image
-                src="/assets/images/ui-create-account.png"
+                src="/assets/images/logoHero.webp"
                 alt="mobile app creat account screenshot"
                 width="574px"
-                height="1000px"
+                height="700px"
                 layout="responsive"
                 priority={true}
               />
@@ -113,10 +59,10 @@ export default function Hero(): ReactElement {
           {(isLarge || isHuge || isEnormous) && (
             <div className={classNames('max-w-2xl')}>
               <Image
-                src="/assets/images/ui-showcase.png"
+                src="/assets/images/logoHero.webp"
                 alt="mobile app ui showcase"
-                width="2224px"
-                height="2000px"
+                width="1900px"
+                height="1903px"
                 priority={true}
                 loading="eager"
               />

@@ -12,11 +12,13 @@ import { useScreen } from '@/contexts/screen';
 // optimise build sizes by loading dynamically
 const DynamicVideoPlayer = dynamic(() => import('@/components/VideoPlayer'));
 
+
+
 export default function About(): ReactElement {
   const textRef = useRef<HTMLDivElement>(null);
   const { isSmall, isMedium } = useScreen();
   const redactedOptions = {
-    redactColor: 'primary',
+    redactColor: 'white',
     textColor: 'white',
     animate: true,
     classes: 'p-1',
@@ -90,7 +92,7 @@ export default function About(): ReactElement {
     }
   }, [isSmall, isMedium]);
   return (
-    <section className="text-white bg-gray-dark">
+    <section className="bg-gray-dark">
       <Headline
         classes={classNames('text-lg font-bold pt-16', 'lg:pt-20')}
         containerWidths={{
@@ -99,7 +101,7 @@ export default function About(): ReactElement {
           large: '67rem',
         }}
       >
-        <h2>What is Session?</h2>
+       <h2 style={{ color: 'white' }}>What is Kame?</h2>
       </Headline>
       {/* Full screen height - Headline height */}
       <Container
@@ -128,15 +130,17 @@ export default function About(): ReactElement {
           )}
           ref={textRef}
         >
-          Session is an <span className={redactedClasses}>end-to-end</span>{' '}
-          encrypted messenger that minimises{' '}
-          <span className={redactedClasses}>sensitive</span> metadata,{' '}
+          Kame is an <span className={redactedClasses}>integrated</span>{' '}
+          Android system equipped with a secure message application{' '}
+          <span className={redactedClasses}>engineered</span> with multi layer encryption,{' '}
           <span className={redactedClasses}>designed and built</span> for people
           who want <span className={redactedClasses}>absolute</span> privacy and
-          freedom from <span className={redactedClasses}>any form of</span>{' '}
+          freedom from <span className={redactedClasses}>governments</span>{' '}
           surveillance.
         </p>
-        <DynamicVideoPlayer {...videoProps} />
+      {  
+     // <DynamicVideoPlayer {...videoProps}/>
+      }
       </Container>
     </section>
   );

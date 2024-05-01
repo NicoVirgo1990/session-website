@@ -5,11 +5,11 @@ import { ReactElement } from 'react';
 import classNames from 'classnames';
 
 export default function Benefits(): ReactElement {
-  const cardClasses = classNames('w-1/2 mb-5', 'lg:w-full lg:max-w-sm lg:px-8');
+  const cardClasses = classNames('w-1/2 mb-5 text-green-500', 'lg:w-full lg:max-w-sm lg:px-8');
   const imageWidth = '500px';
   const imageHeight = '500px';
   return (
-    <section className={'text-gray-dark bg-primary'}>
+    <section className={'text-white bg-primary'}>
       <Headline
         color="gray-dark"
         classes={classNames('text-lg font-bold pt-16', 'lg:pt-20')}
@@ -19,7 +19,7 @@ export default function Benefits(): ReactElement {
           large: '67rem',
         }}
       >
-        <h2>Benefits</h2>
+    <h2 style={{ color: 'white' }}>Benefits</h2>
       </Headline>
       <Container
         hasMinHeight={true}
@@ -45,9 +45,9 @@ export default function Benefits(): ReactElement {
           )}
         >
           <BenefitsCard
-            title="No Phone Numbers"
+            title="Anonymous"
             description={[
-              'Session accounts are completely anonymous.',
+              'Kame Extreme accounts are anonymous.',
               'No phone number or email required.',
             ]}
             images={[
@@ -60,9 +60,9 @@ export default function Benefits(): ReactElement {
             classes={classNames(cardClasses, 'lg:mb-32')}
           />
           <BenefitsCard
-            title="No Data Breaches"
+            title="No user data"
             description={[
-              'Session doesn’t collect data,',
+              'Kame doesn’t collect data,',
               'so there’s nothing to leak.',
             ]}
             images={[
@@ -75,10 +75,10 @@ export default function Benefits(): ReactElement {
             classes={classNames(cardClasses, 'lg:mb-32')}
           />
           <BenefitsCard
-            title="No Footprints"
+            title="Nobody track you"
             description={[
-              'Send messages through our onion',
-              ' routing network and leave no trace.',
+              'Send messages through our p2p network',
+              'Kame Hardcore Antitracker leaves no trace',
             ]}
             images={[
               '/assets/svgs/no-footprint.svg',
@@ -90,10 +90,10 @@ export default function Benefits(): ReactElement {
             classes={classNames(cardClasses, 'lg:mb-32')}
           />
           <BenefitsCard
-            title="Open Source"
+            title="Multiple Device Versions"
             description={[
-              'Session’s code has nothing to hide. Anyone can',
-              'view, audit, and contribute.',
+              'Choose between Extreme or SE ',
+              'Different Threats, different defenses'
             ]}
             images={[
               '/assets/svgs/open-source.svg',
@@ -107,8 +107,8 @@ export default function Benefits(): ReactElement {
           <BenefitsCard
             title="Censorship Resistant"
             description={[
-              'With no central point of failure,',
-              'it’s harder to shut Session down.',
+              'With p2p communication,',
+              'it’s impossible to shut Kame down.',
             ]}
             images={[
               '/assets/svgs/censorship-resistant.svg',

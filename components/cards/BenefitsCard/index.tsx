@@ -26,8 +26,8 @@ export default function BenefitsCard(props: Props): ReactElement {
     classes,
   } = props;
   const redactedClasses = redact({
-    redactColor: 'gray-dark',
-    textColor: 'gray-dark',
+    redactColor: 'white',
+    textColor: 'white',
   });
   const renderImages = (() => {
     if (isSmall) {
@@ -71,7 +71,7 @@ export default function BenefitsCard(props: Props): ReactElement {
       return (
         <p
           key={index}
-          className={classNames('text-sm leading-loose -mx-3 mb-1')}
+          className={classNames('text-sm leading-loose -mx-3 mb-1 text-white')}
         >
           <span className={classNames(redactedClasses)}>{line}</span>
         </p>

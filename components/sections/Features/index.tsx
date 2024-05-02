@@ -52,10 +52,10 @@ export default function Features(): ReactElement {
               className={classNames('-mt-4 -ml-1 mb-12', 'md:mb-16 md:px-20')}
             >
               <Image
-                src="/assets/images/blockchainTop.png"
+                src="/assets/images/mockup-desktop.png"
                 alt="mobile app direct message screenshot"
-                width="1001px"
-                height="1001px"
+                width="2000px"
+                height="2700px"
                 layout="responsive"
                 priority={true}
                 loading="eager"
@@ -94,10 +94,10 @@ A controlled network every device provides security. Anti-tracking tools protect
               )}
             >
               <Image
-                src="/assets/images/blockchainTop.png"
+                src="/assets/images/mockup-desktop.png"
                 alt="desktop app screenshot"
-                width="1001px"
-                height="1001px"
+                width="2477px"
+                height="3000px"
                 layout="responsive"
                 loading="eager"
               />

@@ -11,9 +11,9 @@ interface INavList {
 }
 
 const NAV_ITEMS: INavList = {
-  About: {
-    href: '/technicals',
-    alt: 'Heading of Session Technical Links',
+  Team: {
+    href: '/team',
+    alt: 'Heading of Session Team Links',
     target: '_self',
   },
   Features: {

@@ -133,7 +133,7 @@ export default function Footer(): ReactElement {
                 Android system equipped with a secure message application{' '}
                 <span className={redactedClasses}>engineered</span> with multi layer encryption,{' '}
                 <span className={redactedClasses}>designed and built</span> for people
-                who want <span className={redactedClasses}>absolute</span> privacy and
+                who want be safe from <span className={redactedClasses}>hackers</span> cyber attacks and <span className={redactedClasses}>absolute</span> privacy and
                 freedom from <span className={redactedClasses}>governments</span>{' '}
                 surveillance.
             </p>

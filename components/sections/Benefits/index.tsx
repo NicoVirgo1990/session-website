@@ -5,7 +5,7 @@ import { ReactElement } from 'react';
 import classNames from 'classnames';
 
 export default function Benefits(): ReactElement {
-  const cardClasses = classNames('w-1/2 mb-5 text-green-500', 'lg:w-full lg:max-w-sm lg:px-8');
+  const cardClasses = classNames('w-1/2 mb-5 text-white', 'lg:w-full lg:max-w-sm lg:px-8');
   const imageWidth = '500px';
   const imageHeight = '500px';
   return (

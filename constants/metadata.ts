@@ -16,12 +16,12 @@ export interface IMetadata {
 const METADATA = {
   HOST_URL:
     process.env.NEXT_PUBLIC_SITE_ENV === 'production'
-      ? 'https://getsession.org'
-      : 'https://staging.getsession.org',
-  SITE_NAME: 'Session',
-  TITLE: 'Session | Send Messages, Not Metadata. | Private Messenger',
+      ? 'https://kamesystem.com'
+      : 'https://kamesystem.com',
+  SITE_NAME: 'Kame',
+  TITLE: 'Kame | Stay Safe, Stay Kame.',
   DESCRIPTION:
-    'Session is a private messenger that aims to remove any chance of metadata collection by routing all messages through an onion routing network.',
+    'Kame is a secure android smartphone, ideal for activist, journalist, business leader and CEO .',
   TAGS: [
     'Privacy',
     'co-op',

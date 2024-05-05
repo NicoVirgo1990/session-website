@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary-DEFAULT: #3a3a3a;
+  --primary-DEFAULT: #7e7e7e;
   --primary-dark: #202020;
   --gray-lightest: #adadad;
   --gray-lighter: #7a7a7a;

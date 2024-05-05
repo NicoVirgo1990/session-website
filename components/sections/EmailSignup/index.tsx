@@ -61,7 +61,7 @@ export default function EmailSignup(): ReactElement {
         >
          KAME:  next generation cybersecurity smartphone
         </h3>
-        <p className={classNames('leading-none mb-4 text-green-400', 'md:mb-8', 'lg:text-xl')}>
+        <p className={classNames('leading-none mb-4 text-white', 'md:mb-8', 'lg:text-xl')}>
           STAY SAFE, STAY KAME!
         </p>
        

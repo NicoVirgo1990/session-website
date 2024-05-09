@@ -15,7 +15,7 @@ export default function CustomHead(props: Props): ReactElement {
   const { title, metadata } = props;
   const pageTitle =
     title && title.length > 0
-      ? `${title} - Session Private Messenger`
+      ? `${title} - Kame - Secure Android Smartphone`
       : METADATA.TITLE;
   const pageUrl = `${METADATA.HOST_URL}${router.asPath}`;
   const canonicalUrl = metadata?.CANONICAL_URL ?? pageUrl;

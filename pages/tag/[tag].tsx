@@ -17,7 +17,7 @@ interface Props {
 export default function Tag(props: Props): ReactElement {
   const { tag, posts } = props;
   return (
-    <Layout title={`${tag} Archives`} metadata={METADATA.BLOG_PAGE}>
+    <Layout title={`${tag} Archives`} >
       <section>
         <Container
           classes={classNames(

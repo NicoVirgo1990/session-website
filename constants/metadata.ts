@@ -52,7 +52,6 @@ const METADATA = {
   ITUNES_ID: 'app-id=1470168868',
   404: {
     DESCRIPTION: 'It looks like the link pointing here was faulty.',
-  }
   },
   DOWNLOAD_PAGE: {
     TYPE: 'article',

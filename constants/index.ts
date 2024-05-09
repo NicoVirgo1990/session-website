@@ -1,4 +1,4 @@
-import BANNER from './banner';
+//import BANNER from './banner';
 import CMS from './cms';
 import LINKS from './links';
 import METADATA from './metadata';
@@ -7,4 +7,4 @@ import SIGNUPS from './signups';
 import TOS from './tos';
 import UI from './ui';
 
-export { BANNER, CMS, LINKS, METADATA, NAVIGATION, SIGNUPS, TOS, UI };
+export { CMS, LINKS, METADATA, NAVIGATION, SIGNUPS, TOS, UI };

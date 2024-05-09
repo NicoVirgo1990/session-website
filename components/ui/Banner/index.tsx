@@ -1,4 +1,4 @@
-import { BANNER } from '@/constants';
+//import { BANNER } from '@/constants';
 import Button from '../Button';
 import Link from 'next/link';
 import { ReactElement } from 'react';
@@ -15,9 +15,7 @@ export default function Banner(): ReactElement {
         '2xl:items-center'
       )}
     >
-      <span className={classNames('text-center mb-4', 'lg:text-left lg:mb-0')}>
-        {isSmall ? BANNER.TEXT.MOBILE : BANNER.TEXT.DESKTOP}
-      </span>
+ 
       <span
         className={classNames('flex justify-center items-center', '2xl:ml-4')}
       >

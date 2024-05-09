@@ -1,7 +1,7 @@
 import { Footer, Nav } from '@/components/navigation';
 import { ReactElement, ReactNode, useEffect, useState } from 'react';
 
-import { Banner } from '@/components/ui';
+//import { Banner } from '@/components/ui';
 import CustomHead from '@/components/CustomHead';
 import { EmailSignup } from '@/components/sections';
 import { IMetadata } from '@/constants/metadata';
@@ -12,7 +12,7 @@ interface Props {
   title?: string;
   metadata?: IMetadata;
   children: ReactNode;
-  showBanner?: boolean;
+  showBanner?: false;
 }
 
 export default function Layout({
@@ -38,7 +38,6 @@ export default function Layout({
   return (
     <>
       <CustomHead title={title} metadata={metadata} />
-      {showBanner && <Banner />}
       <Nav />
       {locked ? <LockedPage /> : <main>{children}</main>}
       <EmailSignup />

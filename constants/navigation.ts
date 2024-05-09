@@ -16,6 +16,11 @@ const NAV_ITEMS: INavList = {
     alt: 'Heading of Session Team Links',
     target: '_self',
   },
+  Manifesto: {
+    href: '/manifesto',
+    alt: `Link to Session's FAQs`,
+    target: '_self',
+  },
   Features: {
     href: '/faq',
     alt: `Link to Session's FAQs`,

@@ -76,7 +76,7 @@ export default function Features(): ReactElement {
       
             </p>
             <h3 className={headingClasses}>Hardened OS</h3>
-            <p className={paragraphClasses}> With a unique read-only format and blockchain-based update verification, Kame ensures that only authorized applications are installed and that updates are tamper-proof and genuine. Our proprietary Shield application conducts regular system checks to swiftly detect and respond to potential intrusions, providing unparalleled protection for your devices and data. Experience peace of mind with Kame's advanced security features.
+            <p className={paragraphClasses}> With a unique read-only format and blockchain-based update verification, Kame ensures that only authorized applications are installed and that updates are tamper-proof and genuine. Our proprietary Shield application conducts regular system checks to swiftly detect and respond to potential intrusions, providing unparalleled protection for your devices and data. Experience peace of mind with Kame&apos;s advanced security features.
 
             </p>
             <h3 className={headingClasses}>Kame Network</h3>

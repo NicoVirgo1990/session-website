@@ -1808,13 +1808,6 @@
             "sys": {
               "type": "Link",
               "linkType": "Tag",
-              "id": "announcement"
-            }
-          },
-          {
-            "sys": {
-              "type": "Link",
-              "linkType": "Tag",
               "id": "communityContribution"
             }
           }

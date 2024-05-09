@@ -52,17 +52,7 @@ const METADATA = {
   ITUNES_ID: 'app-id=1470168868',
   404: {
     DESCRIPTION: 'It looks like the link pointing here was faulty.',
-  },
-  BLOG_PAGE: {
-    TYPE: 'article',
-    DESCRIPTION:
-      'View the Session Blogs. | Session is an end-to-end encrypted messenger that removes sensitive metadata collection.',
-    OG_IMAGE: {
-      URL: '/assets/images/send-messages-not-metadata.jpg',
-      WIDTH: 1024,
-      HEIGHT: 1024,
-      ALT: 'Mysterious man on the phone. Heading is Use Session.',
-    },
+  }
   },
   DOWNLOAD_PAGE: {
     TYPE: 'article',

@@ -195,11 +195,6 @@ export default function CustomHead(props: Props): ReactElement {
         content={METADATA.TWITTER_CREATOR}
       />
       <meta
-        key="apple-itunes-app"
-        name="apple-itunes-app"
-        content={METADATA.ITUNES_ID}
-      />
-      <meta
         key="msapplication-TileColor"
         name="msapplication-TileColor"
         content={METADATA.MSAPPLICATION_TILECOLOR}
@@ -224,12 +219,6 @@ export default function CustomHead(props: Props): ReactElement {
         type="image/png"
         sizes="16x16"
         href={METADATA.FAVICON.SMALL}
-      />
-      <link
-        key="apple-touch-icon"
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href={METADATA.FAVICON.APPLE_TOUCH_ICON}
       />
       <link key="manifest" rel="manifest" href={METADATA.MANIFEST} />
       <link

@@ -172,23 +172,7 @@ export default function Download(): ReactElement {
                     'lg:border-primary'
                   )}
                 >
-                  <Link href="/iphone">
-                    <a
-                      className={classNames(
-                        downloadLinkClasses,
-                        'lg:hover:bg-gray-dark lg:hover:text-primary'
-                      )}
-                    >
-                      <AppleSVG
-                        className={classNames(
-                          downloadSVGClasses,
-                          'w-4 h-4',
-                          'md:w-6 md:h-6'
-                        )}
-                      />
-                      <span>iPhone</span>
-                    </a>
-                  </Link>
+             
                 </div>
               </div>
             </div>

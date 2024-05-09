@@ -49,7 +49,7 @@ const METADATA = {
   MSAPPLICATION_TILECOLOR: '#343132',
   THEME_COLOR: '#ffffff',
   TWITTER_CREATOR: 'session_app',
-  ITUNES_ID: 'app-id=1470168868',
+  ITUNES_ID: '',
   404: {
     DESCRIPTION: 'It looks like the link pointing here was faulty.',
   },

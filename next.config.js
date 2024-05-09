@@ -95,12 +95,6 @@ const config = {
         permanent: true,
       },
       {
-        source: '/iphone',
-        destination:
-          'https://apps.apple.com/app/session-private-messenger/id1470168868?ls=1',
-        permanent: true,
-      },
-      {
         source: '/f-droid',
         destination: 'https://fdroid.getsession.org/',
         permanent: true,

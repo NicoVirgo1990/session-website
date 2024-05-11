@@ -17,7 +17,7 @@ export default function GroupNotice(props: Props): ReactElement {
       )}
     >
       <h4 className={classNames('text-xl font-bold leading-none mb-2')}>
-        Contact Kame Team to more information:
+        Contact Kame Team for more informations:
       </h4>
       <p className={classNames('leading-none')}>
         {' '}
@@ -29,7 +29,7 @@ export default function GroupNotice(props: Props): ReactElement {
               'hover:text-white'
             )}
           >
-            kamephone@tuta.com
+            info@kamesystem.com
           </a>
         </Link>
       </p>
